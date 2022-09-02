@@ -6,7 +6,7 @@ import (
 )
 
 
-func Gettextdocxcontent(filename string)(string, error){
+func getextdocxcontent(filename string)(string, error){
 	txt, err := cat.File(filename) // get text from docx, txt, rtf file
 
     if err != nil{

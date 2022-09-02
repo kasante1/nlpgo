@@ -25,6 +25,6 @@ func ExpandContrations(text_contents string)string{
 }
 
 
-func RemovePuncSpecChar(text_contents string)string{
+func RemovePunctuationSpecialCharacters(text_contents string)string{
 	return text_contents
 }
